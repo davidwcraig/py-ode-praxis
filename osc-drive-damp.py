@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # This is a test notebook
@@ -58,23 +57,6 @@ sol = odeint(dosc, y0,t,args=(0.1,1.05,g))
 
 plt.plot(t, sol[:,0])
 
-
-# In[28]:
-
-def p(a, b):  #making sure I understand lambda functions.
-    return a + b
-
-
-# In[32]:
-
-lp = lambda x : p(x, 4)
-
-
-# In[33]:
-
-lp(3)
-
-
 # In[34]:
 
 def drive(t,a,w):
@@ -95,9 +77,4 @@ sol = odeint(dosc, y0,t,args=(0.02,1.05,lambda x: drive(x,0.05,1.03)))
 # In[45]:
 
 plt.plot(t, sol[:,0])
-
-
-# In[ ]:
-
-
 
