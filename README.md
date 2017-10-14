@@ -9,5 +9,7 @@ It has three main purposes:
 - to learn how to use GitHub;
 - to write some physics-oriented numerical Python code.
 
-__-David W Craig__
+So far I have edited from <pythonanywhere.com>, and my home machine.
+
+_-David W Craig_
 
